@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iGz6rG95R9w=",
+  "dgSpecHash": "v78C+hMSwk0=",
   "success": true,
   "projectFilePath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\src\\VoxLink.API.Domain\\VoxLink.API.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\sanke\\.nuget\\packages\\ardalis.guardclauses\\4.6.0\\ardalis.guardclauses.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
