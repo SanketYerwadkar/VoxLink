@@ -1,3 +1,5 @@
+using VoxLink.API.Domain.Entities.Common;
+
 namespace VoxLink.API.Domain.Entities;
 
 public class Message : BaseEntity

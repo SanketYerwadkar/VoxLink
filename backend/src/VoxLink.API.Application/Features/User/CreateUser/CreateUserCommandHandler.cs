@@ -1,14 +1,15 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace VoxLink.API.Application.Features.User.CreateUser;
 
 public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Result<CreateUserResponse>>
 {
     private readonly IApplicationDbContext _context;
-    private readonly IPasswordHasher<User> _passwordHasher;
+    private readonly IPasswordHasher<VoxLink.API.Domain.Entities.User> _passwordHasher;
 
-    public CreateUserCommandHandler(IApplicationDbContext context, IPasswordHasher<User> passwordHasher)
+    public CreateUserCommandHandler(IApplicationDbContext context, IPasswordHasher<VoxLink.API.Domain.Entities.User> passwordHasher)
     {
         _context = context;
         _passwordHasher = passwordHasher;

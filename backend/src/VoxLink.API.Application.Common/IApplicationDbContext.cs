@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using VoxLink.API.Domain.Entities;
 
 namespace VoxLink.API.Application.Common;
