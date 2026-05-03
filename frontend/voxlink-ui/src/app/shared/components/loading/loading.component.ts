@@ -1,11 +1,16 @@
 import { Component, Input } from '@angular/core';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @Component({
   selector: 'app-loading',
+  standalone: true,
+  imports: [MatProgressSpinnerModule],
   template: `
     <div class="loading-container">
       <mat-spinner></mat-spinner>
-      <p *ngIf="message">{{ message }}</p>
+      @if (message) {
+        <p>{{ message }}</p>
+      }
     </div>
   `,
   styles: [`

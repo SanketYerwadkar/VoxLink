@@ -7,10 +7,9 @@ import { MatCardModule } from '@angular/material/card';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { LoadingComponent } from '../components/loading/loading.component';
 
 @NgModule({
-  declarations: [LoadingComponent],
+  declarations: [],
   imports: [
     CommonModule,
     MatButtonModule,
@@ -28,8 +27,7 @@ import { LoadingComponent } from '../components/loading/loading.component';
     MatCardModule,
     MatSnackBarModule,
     MatDialogModule,
-    MatProgressSpinnerModule,
-    LoadingComponent
+    MatProgressSpinnerModule
   ]
 })
 export class SharedModule {}
