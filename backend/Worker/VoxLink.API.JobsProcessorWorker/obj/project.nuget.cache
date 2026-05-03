@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "dgSpecHash": "YwZhydV9Tu4=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\Worker\\VoxLink.API.JobsProcessorWorker\\VoxLink.API.JobsProcessorWorker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.6\\microsoft.extensions.configuration.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.6\\microsoft.extensions.configuration.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.6\\microsoft.extensions.configuration.binder.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\10.0.6\\microsoft.extensions.configuration.commandline.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\10.0.6\\microsoft.extensions.configuration.environmentvariables.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\10.0.6\\microsoft.extensions.configuration.fileextensions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.json\\10.0.6\\microsoft.extensions.configuration.json.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\10.0.6\\microsoft.extensions.configuration.usersecrets.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.6\\microsoft.extensions.dependencyinjection.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.6\\microsoft.extensions.dependencyinjection.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.diagnostics\\10.0.6\\microsoft.extensions.diagnostics.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\10.0.6\\microsoft.extensions.diagnostics.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\10.0.6\\microsoft.extensions.fileproviders.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\10.0.6\\microsoft.extensions.fileproviders.physical.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\10.0.6\\microsoft.extensions.filesystemglobbing.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.hosting\\10.0.6\\microsoft.extensions.hosting.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\10.0.6\\microsoft.extensions.hosting.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging\\10.0.6\\microsoft.extensions.logging.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.6\\microsoft.extensions.logging.abstractions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging.configuration\\10.0.6\\microsoft.extensions.logging.configuration.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging.console\\10.0.6\\microsoft.extensions.logging.console.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging.debug\\10.0.6\\microsoft.extensions.logging.debug.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging.eventlog\\10.0.6\\microsoft.extensions.logging.eventlog.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\10.0.6\\microsoft.extensions.logging.eventsource.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.options\\10.0.6\\microsoft.extensions.options.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.6\\microsoft.extensions.options.configurationextensions.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.6\\microsoft.extensions.primitives.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\system.diagnostics.eventlog\\10.0.6\\system.diagnostics.eventlog.10.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Error",
+      "message": "Warning As Error: Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/RCSCBS/_packaging/cbs-nugets/nuget/v3/index.json.",
+      "projectPath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\Worker\\VoxLink.API.JobsProcessorWorker\\VoxLink.API.JobsProcessorWorker.csproj",
+      "filePath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\Worker\\VoxLink.API.JobsProcessorWorker\\VoxLink.API.JobsProcessorWorker.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

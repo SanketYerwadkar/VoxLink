@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "K4/yBmasDBs=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\src\\VoxLink.API.Web\\VoxLink.API.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.6\\microsoft.aspnetcore.openapi.10.0.6.nupkg.sha512",
+    "C:\\Users\\sanke\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Error",
+      "message": "Warning As Error: Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/RCSCBS/_packaging/cbs-nugets/nuget/v3/index.json.",
+      "projectPath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\src\\VoxLink.API.Web\\VoxLink.API.Web.csproj",
+      "filePath": "C:\\Users\\sanke\\OneDrive\\Desktop\\ProjectV1\\VoxLink\\backend\\src\\VoxLink.API.Web\\VoxLink.API.Web.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
