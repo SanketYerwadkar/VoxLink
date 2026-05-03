@@ -9,7 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
 builder.Services.AddCarter();
-builder.Services.AddMediatR(typeof(Program).Assembly);
 
 // Add application layer
 builder.Services.AddApplication();
@@ -58,21 +57,9 @@ builder.Services.AddCors(options =>
 // Add SignalR
 builder.Services.AddSignalR();
 
-// Add Swagger/OpenAPI
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
-{
-    c.SwaggerDoc("v1", new() { Title = "VoxLink API", Version = "v1" });
-});
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");

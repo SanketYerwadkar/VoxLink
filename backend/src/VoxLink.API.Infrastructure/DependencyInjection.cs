@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using VoxLink.API.Application.Common;
 using VoxLink.API.Infrastructure.Data;
@@ -16,19 +18,8 @@ public static class DependencyInjection
         services.AddScoped<IApplicationDbContext>(provider =>
             provider.GetRequiredService<ApplicationDbContext>());
 
-        // Identity
-        services.AddIdentityCore<User>(options =>
-        {
-            options.Password.RequireDigit = true;
-            options.Password.RequiredLength = 8;
-            options.Password.RequireNonAlphanumeric = true;
-            options.Password.RequireUppercase = true;
-            options.Password.RequireLowercase = true;
-        })
-        .AddEntityFrameworkStores<ApplicationDbContext>()
-        .AddDefaultTokenProviders();
-
-        services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+        // Custom password hashing
+        services.AddScoped<IPasswordHasher<VoxLink.API.Domain.Entities.User>, PasswordHasher<VoxLink.API.Domain.Entities.User>>();
 
         return services;
     }
