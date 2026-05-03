@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/VoxLink.API.Application.Common/VoxLink.API.Application.Common.csproj" />
+    <Project Path="src/VoxLink.API.Application/VoxLink.API.Application.csproj" />
+    <Project Path="src/VoxLink.API.Domain/VoxLink.API.Domain.csproj" />
+    <Project Path="src/VoxLink.API.Infrastructure/VoxLink.API.Infrastructure.csproj" />
+    <Project Path="src/VoxLink.API.Web/VoxLink.API.Web.csproj" />
+  </Folder>
+  <Folder Name="/Worker/">
+    <Project Path="Worker/VoxLink.API.DataMigrator.ConsoleApp/VoxLink.API.DataMigrator.ConsoleApp.csproj" />
+    <Project Path="Worker/VoxLink.API.EventsProcessorWorker/VoxLink.API.EventsProcessorWorker.csproj" />
+    <Project Path="Worker/VoxLink.API.EventsPublisherWorker/VoxLink.API.EventsPublisherWorker.csproj" />
+    <Project Path="Worker/VoxLink.API.JobsProcessorWorker/VoxLink.API.JobsProcessorWorker.csproj" />
+  </Folder>
+</Solution>

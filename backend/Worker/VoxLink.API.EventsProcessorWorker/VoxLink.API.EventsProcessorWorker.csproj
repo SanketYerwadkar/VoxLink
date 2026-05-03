@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-VoxLink.API.EventsProcessorWorker-568ba0d4-d0b2-4d80-8e98-e0674d5ca481</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\VoxLink.API.Application\VoxLink.API.Application.csproj" />
+    <ProjectReference Include="..\..\src\VoxLink.API.Infrastructure\VoxLink.API.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
